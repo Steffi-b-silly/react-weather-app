@@ -69,7 +69,7 @@ export default function Weather(props) {
 <div className="row weather-forecast" id="forecast">Forecast for the next 16 hours</div>
 </div>
             <small className="steffi">
-              Open-source code by <a href="https://github.com/Steffi-b-silly/Steffis-weather-app_final-project"
+              Open-source code by <a href="https://github.com/Steffi-b-silly/react-weather-app"
                 target="_blank" rel="noreferrer">Steffi Bayerl</a>
             </small>
      </div>
