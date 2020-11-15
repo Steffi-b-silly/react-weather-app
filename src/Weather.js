@@ -37,40 +37,40 @@ export default function Weather(props) {
             </div>
           </form>
           <div className="overview">
-      <h1 id="city"></h1>
+      <h1 id="city">Your city</h1>
       <ul>
-        <li>Last updated: <span id="date"></span></li>
-        <li id="description"></li>
+        <li>Last updated: <span id="date">Sunday, 18:15 o'clock</span></li>
+        <li id="description">Clear sky</li>
       </ul>
           </div>
       <div className="row">
         <div className="col-6">
           <div className="clearfix weather-temp">
-          <img src="" alt="" id="weather-icon" className="float-left" />
+          <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather icon" id="weather-icon" className="float-left" />
           <div className="float-left">
-          <strong id="temp"></strong>
+          <strong id="temp">XY</strong>
             <span className="units">
-              <a href="/" id="celsius">°C</a> | 
-              <a href="/" id="fahrenheit">°F</a></span>
+              <span>°C</span> | 
+              <span>°F</span></span>
           </div>
           </div>
         </div>
         <div className="col-6">
           <ul>
             <li>
-              Humidity: <span id="humidity"></span> %
+              Humidity: <span id="humidity">XY</span> %
             </li>
             <li>
-              Wind: <span id="wind"> </span> km/h
+              Wind: <span id="wind">YZ</span> km/h
             </li>
           </ul>
         </div>  
       </div>
-<div className="row weather-forecast" id="forecast"></div>
+<div className="row weather-forecast" id="forecast">Forecast for the next 16 hours</div>
 </div>
             <small className="steffi">
               Open-source code by <a href="https://github.com/Steffi-b-silly/Steffis-weather-app_final-project"
-                target="_blank">Steffi Bayerl</a>
+                target="_blank" rel="noreferrer">Steffi Bayerl</a>
             </small>
      </div>
     </div>
