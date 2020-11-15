@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import axios from 'axios';
 import "./Weather.css";
 import Loader from 'react-loader-spinner';
@@ -50,8 +50,8 @@ export default function Weather(props) {
           <div className="float-left">
           <strong id="temp"></strong>
             <span className="units">
-              <a href="#" id="celsius">°C</a> | 
-              <a href="#" id="fahrenheit">°F</a></span>
+              <a href="/" id="celsius">°C</a> | 
+              <a href="/" id="fahrenheit">°F</a></span>
           </div>
           </div>
         </div>
