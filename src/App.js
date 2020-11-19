@@ -6,7 +6,9 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
-         <Weather city="Wiesbaden"/>
+        <div class="container">
+          <Weather city="Wiesbaden"/>
+        </div>
     </div>
   );
 }
