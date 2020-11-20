@@ -32,6 +32,12 @@ li:first-letter {
 .wrapper {
   max-width: 600px;
   margin: 33px auto;
+}
+
+.weather-app-border {
+  padding: 22px;
+  border: 1px solid #212122;
+  border-radius: 5px;
   /* gradient */
   background: rgb(7, 255, 47);
   background: linear-gradient(
@@ -41,20 +47,14 @@ li:first-letter {
   );
 }
 
-.weather-app-border {
-  padding: 22px;
-  border: 1px solid #212122;
-  border-radius: 5px;
-}
-
 .overview {
   margin-bottom: 22px;
 }
 
 .weather-temp img {
   margin-right: 5px;
-  height: 65px;
-  width: 65px;
+  height: 70px;
+  width: 70px;
 }
 
 .weather-temp strong {
