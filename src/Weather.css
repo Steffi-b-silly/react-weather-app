@@ -42,8 +42,8 @@ li:first-letter {
   background: rgb(7, 255, 47);
   background: linear-gradient(
     0deg,
-    rgba(7, 255, 47, 0.2978233529740021) 0%,
-    rgba(253, 250, 45, 0.348243521041229) 100%
+    rgba(248, 234, 38, 0.298) 0%,
+    rgba(255, 251, 0, 0.348) 100%
   );
 }
 
