@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FormattedDate from "./FormattedDate";
+import Tempunits from "./Tempunits";
 import axios from 'axios';
 import "./Weather.css";
 
@@ -64,10 +65,7 @@ export default function Weather(props) {
           <div className="clearfix weather-temp">
           <img src={data.icon} alt="Weather icon" className="float-left" />
           <div className="float-left">
-          <strong>{Math.round(data.temp)}</strong>
-            <span className="units">
-              <span>°C</span> | 
-              <span>°F</span></span>
+            <Tempunits celsius={data.temp} />
           </div>
           </div>
         </div>

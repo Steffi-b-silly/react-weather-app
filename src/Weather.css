@@ -57,18 +57,6 @@ li:first-letter {
   width: 70px;
 }
 
-.weather-temp strong {
-  font-size: 65px;
-  font-weight: 400;
-  line-height: 1;
-}
-
-.weather-temp .units {
-  position: relative;
-  font-size: 15px;
-  top: -33px;
-}
-
 .weather-forecast {
   margin-top: 10px;
 }
