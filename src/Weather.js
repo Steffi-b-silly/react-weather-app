@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FormattedDate from "./FormattedDate";
 import Tempunits from "./Tempunits";
+import Forecast from "./Forecast";
 import axios from 'axios';
 import "./Weather.css";
 
@@ -80,7 +81,7 @@ export default function Weather(props) {
           </ul>
         </div>  
       </div>
-<div className="row weather-forecast">Forecast for the next 16 hours</div> 
+<Forecast city={data.city} icon={data.icon}/> 
 </div> 
 <small className="steffi">
               Open-source code by <a href="https://github.com/Steffi-b-silly/react-weather-app"
